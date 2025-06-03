@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness site</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h4 class="logo"><img src="img/icon.png" alt="">FitnessBoom City</h4>
+            <div class="header__inner">
+                <p class="logo__inner">Сеть фитнес-клубов в Москве и МО</p>
+
+                 <button class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </button>
+
+                <nav class="menu" id="menu">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="#info" class="header__list-link">Услуги</a></li>
+                        <li class="header__list-item"><a href="#price" class="header__list-link">Стоимость</a></li>
+                        <li class="header__list-item"><a href="#work" class="header__list-link">Расписание</a></li>
+                        <li class="header__list-item"><a href="#action" class="header__list-link">Акции</a></li>
+                        <li class="header__list-item"><a href="#team" class="header__list-link">Команда</a></li>
+                        <li class="header__list-item"><a href="#gallary" class="header__list-link">Фото и видео</a></li>
+                        <li class="header__list-item"><a href="#contact" class="header__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-row">
+                    <div class="header__content-info">
+                        <h1 class="header__content-title">Получите тело своей мечты, 
+                            занимаясь в нашем клубе
+                            по удобной программе</h1>
+                        <p class="header__content-txt">Приглашаем в наш фитнес-клуб,
+                             где каждый желающий может привести себя в спортивную
+                             форму самостоятельно или с
+                              помощью наших высококвалифицированных тренеров</p>
+
+                                <a href="#" class="header__button-link">Записаться
+                                     на первое
+                                бесплатное посещение</a>
+                    </div>
+                    <img src="img/fitness__main.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="info" id="info">
+        <div class="container">
+            <h3 class="info__title">виды услуг и направления</h3>
+
+            <div class="info__inner">
+                <div class="info__inner-item">
+                    <h4 class="info__inner-title">Тренажерный зал</h4>
+                </div>
+
+                <div class="info__inner-item">
+                    <h4 class="info__inner-title">Групповые занятия</h4>
+                </div>
+
+                <div class="info__inner-item">
+                    <h4 class="info__inner-title">Персональные тренировки</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container">
+            <h3 class="price__title">Прайс-лист</h3>
+
+            <div class="price__main">
+                <div class="price__inner">
+                    <h4 class="prie__inner-title">Тренажерный зал</h4>
+                    <h4 class="prie__inner-title">Групповые занятия</h4>
+                    <h4 class="prie__inner-title">Персональные тренировки</h4>
+                </div>
+
+                <div class="price__info">
+                    <p class="price__info-text"></p>
+                    <p class="price__info-text"></p>
+                    <p class="price__info-text"></p>
+                    <p class="price__info-text"></p>
+                    <p class="price__info-text"></p>
+                    <p class="price__info-text"></p>
+                </div>
+
+                <div class="price__check">
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Разовое посещение <b>250 рублей</b></label> 
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Безлимитная карта на 1 месяц (дневная) <b>1 200 рублей</b></label> 
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Безлимитная карта на 1 месяц (весь день)  <b>1 700 рублей</b></label> 
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Безлимитная карта на 3 месяца <b>4 200 рублей</b></label> 
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Безлимитная карта на 6 месяцев <b>7 800 рублей</b></label> 
+                    <input  class="price__checkbox-item" type="checkbox"> <label for="">Безлимитная карта на 12 месяцев <b>14 400 рублей</b></label> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="work__title">Расписание занятий</h2>
+
+            <div class="work__inner">
+                <div class="work__inner-item">
+                    <h4 class="work__inner-title">Понедельник</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+                <div class="work__inner-item">
+                    <h4 class="work__inner-title">Вторник</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+               <div class="work__inner-item">
+                    <h4 class="work__inner-title">Среда</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+                <div class="work__inner-item">
+                    <h4 class="work__inner-title">Четверг</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+               <div class="work__inner-item">
+                    <h4 class="work__inner-title">Пятница</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+                <div class="work__inner-item">
+                    <h4 class="work__inner-title">Суббота</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+
+                <div class="work__inner-item">
+                    <h4 class="work__inner-title">Воскресенье</h4>
+                    <p class="work__inner-text"><time datetime="8:00">08:00</time> - круговая (Юлия)</p>
+                    <p class="work__inner-text"><time datetime="13:00">13:00</time> - ягодицы+растяжка (Виктория)</p>
+                    <p class="work__inner-text"><time datetime="17:00">17:00</time> - идеальный торс (Максим)</p>
+                    <p class="work__inner-text"><time datetime="18:00">18:00</time> - базовая (Екатерина)</p>
+                    <p class="work__inner-text"><time datetime="20:00">20:00</time> - #супертело (Максим)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="team" id="team">
+        <div class="container">
+            <div class="team__inner">
+                <div class="team__info">
+                    <h3 class="team__title">О клубе и наша команда</h3>
+                    <p class="team__text"><b>FitnessBoom City - Сеть фитнес-клубов в Москве и МО.</b></p>
+                    <p class="team__text">Наш фитнес-клуб оснащен самым
+                         современным оборудованием,
+                         три зала групповых занятий, бассейн, просторные раздевалки
+                         и душевые комнаты, зал игровых
+                          видов спорта, сайкл-студия и многое другое
+                    <p class="team__text">FitnessBoom City поможет привести себя в отличную
+                         спортивную форму. Чтобы познакомиться с фитнес-клубом,
+                         первый раз вы можете прийтина тренировку
+                          в наш зал абсолютно бесплатно.</p>
+
+                    <p class="team__text">У нас работают только опытные тренеры и инструкторы,
+                         которые всегда подскажут и помогут вам. Вы сможете и
+                          накачать мышцы и научиться танцевать и ходить на фитнес.
+                           А также с помощью нашего фитнес-бара вы сможете восполнить
+                            баланс сил после тренировки
+                         вы сможете в нашем фитнес-баре, выпив порцию протеинового коктейля. </p>
+                    <a href="#" class="team__link">Ознакомьтесь с правилами посещения клуба.</a>
+                </div>
+                <img src="img/fitness__clube.webp" alt="">
+            </div>
+
+            <div class="team__content">
+                <div class="content">
+                    <div class="content__row-item">
+                        <img src="img/traner1.jpg" alt="">
+                        <h4 class="content__row-title">Фамилия Имя Тренера</h4>
+                        <p class="content__row-text">Идейные соображения высшего порядка, а также
+                             постоянное информационно-пропагандистское обеспечение
+                              нашей деятельности обеспечивает
+                               широкому кругу (специалистов) участие в
+                             формировании системы обучения кадров,
+                              соответствует насущным потребностям. </p>
+
+                              <p class="content__row-text">Равным образом рамки и место обучения
+                                 кадров представляет собой интересный эксперимент проверки
+                                 позиций, занимаемых участниками в отношении поставленных задач.</p>
+                    </div>
+
+                    <div class="content__row-item">
+                        <img src="img/traner2.webp" alt="">
+                        <h4 class="content__row-title">Фамилия Имя Тренера</h4>
+                        <p class="content__row-text">Идейные соображения высшего порядка, а также
+                             постоянное информационно-пропагандистское обеспечение
+                              нашей деятельности обеспечивает
+                               широкому кругу (специалистов) участие в
+                             формировании системы обучения кадров,
+                              соответствует насущным потребностям. </p>
+
+                              <p class="content__row-text">Равным образом рамки и место обучения
+                                 кадров представляет собой интересный эксперимент проверки
+                                 позиций, занимаемых участниками в отношении поставленных задач.</p>
+                    </div>
+
+                    <div class="content__row-item">
+                        <img src="img/traner3.jpg" alt="">
+                        <h4 class="content__row-title">Фамилия Имя Тренера</h4>
+                        <p class="content__row-text">Идейные соображения высшего порядка, а также
+                             постоянное информационно-пропагандистское обеспечение
+                              нашей деятельности обеспечивает
+                               широкому кругу (специалистов) участие в
+                             формировании системы обучения кадров,
+                              соответствует насущным потребностям. </p>
+
+                              <p class="content__row-text">Равным образом рамки и место обучения
+                                 кадров представляет собой интересный эксперимент проверки
+                                 позиций, занимаемых участниками в отношении поставленных задач.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="action" id="action">
+        <div class="container">
+            <h3 class="action__title">Акции</h3>
+
+            <div class="action__inner">
+                <div class="action__inner-item">
+                    <div class="action__images">
+                        <img src="img/action__frien.jpg" alt="">
+                    </div>
+                    <div class="action__content">
+                        <h5 class="action__inner-content">«Приведи друга»</h5>
+                        <p class="action__inner-text">У нас действует накопительная
+                             система скидок
+                             «Приведи друга». Приводи друзей и получайте
+                              вместе с другом 300 бонусных рублей на покупку абонемента.
+                               Теперь тренироваться с друзьями стало не
+                                только весело, но и выгодно!
+                             Предложение распространяется на все услуги клуба,
+                              кроме персональных занятий.</p>
+                              <a href="#" class="action__inner-button">Воспользоваться акцией</a>
+                    </div>
+                </div>
+
+                <div class="action__inner-item">
+                    <div class="action__images">
+                        <img src="img/action__student.jpeg" alt="">
+                    </div>
+                    <div class="action__content">
+                        <h5 class="action__inner-content">«Студенческая скидка»</h5>
+                        <p class="action__inner-text">Если ты студент или учишься в школе,
+                             у нас есть для тебя специальная цена - 1500 рублей в месяц
+                              за безлимитное посещение! Тебе всего лишь нужно предъявить
+                               студенческий билет (для студентов) или паспорт (для школьников)
+                                и получить возможность
+                             приобрести билет в мир
+                              фитнеса со скидкой! В здоровом теле - здоровый дух!</p>
+                        <a href="#" class="action__inner-button">Воспользоваться акцией</a>
+                    </div>
+                </div>
+
+                <div class="action__inner-item">
+                    <div class="action__images">
+                        <img src="img/action__birthday.webp" alt="">
+                    </div>
+                    <div class="action__content">
+                        <h5 class="action__inner-content">«Скидка в честь дня рождения»</h5>
+                        <p class="action__inner-text">За 3 дня до дня рождения, в саму дату и
+                             3 дня после праздника, мы дарим тебе скидку 500р.
+                             на любой абонемент. Сделай
+                              выгодное вложение в свою фигуру!</p>
+                              <a href="#" class="action__inner-button">Воспользоваться акцией</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallary" id="gallary">
+        <h2 class="gallary__title">Галерея</h2>
+
+          <div class="slider">
+        <div class="slider-container">
+            <img src="img/gallary__1.jpg" class="slide active" alt="">
+            <img src="img/gallary__2.webp" class="slide" alt="">
+            <img src="img/gallary__3.jpg" class="slide" alt="">
+        </div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact__info">
+                    <h4 class="contact__title">Контакты </h4>
+                    <p class="contact__text"><address><b>Адрес:</b> Житная ул., 14, стр. 2, Москва</address></p>
+                    <p class="contact__text"><b>Часы работы:</b> ежедневно (без выходных) с 7:00 до 23:00 </p>
+                    <p class="contact__text"><a href="tel:83843000333" class="contact__tel"><b>Телефон:</b> 8 (3843) 000-333</a></p>
+                    <p class="contact__text"><a href="mailto: fitnessboomcity@mail.ru" class="contact__email"><b>E-mail:</b> fitnessboomcity@mail.ru</a></p>
+                </div>
+
+                <div class="contact__main">
+                    <div class="contact__main-item">
+                        <img src="img/Rectangle 26.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <h4 class="logo"><img src="img/icon.png" alt="">FitnessBoom City</h4>
+            <div class="footer__inner">
+            <p class="logo__inner">Сеть фитнес-клубов в Москве и МО</p>
+
+            <nav class="menus">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="header__list-link">Услуги</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Стоимость</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Расписание</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Акции</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Команда</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Фото и видео</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                    </ul>
+
+                    <a href="#" class="footer__link">Политика конфеденциальности</a>
+                    <a href="#" class="footer__link">Правила пользования сайтом</a>
+                    <a href="#" class="footer__link">Договор-оферта</a>
+                </nav>
+                </div>
+        </div>
+    </footer> 
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>  
