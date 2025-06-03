@@ -20,6 +20,6 @@
 
 # где со мной можно связаться ?
 
-**telegramm: @greteiks**
-kwork: gyrodrer
-авито: https://www.avito.ru/tambov/predlozheniya_uslug/verstka_sayta_sozdanie_sayta_7364112595
+**telegramm: @greteiks** <br />
+**kwork: gyrodrer <br** />
+**авито: https://www.avito.ru/tambov/predlozheniya_uslug/verstka_sayta_sozdanie_sayta_7364112595** <br />
